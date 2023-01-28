@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "webpack serve --open --config webpack.dev.mjs",
 		"test": "echo \"no test specified\"",
-		"build": "webpack --config webpack.prod.mjs"
+		"build": "webpack --config webpack.prod.mjs",
+		"deploy": "blade gw deploy"
 	},
 	"keywords": [],
 	"author": "",

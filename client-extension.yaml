@@ -1,9 +1,9 @@
 assemble:
   - from: dist
-    include: "*.css"
+    include: '*.css'
     into: static/
   - from: dist
-    include: "*.js"
+    include: '*.js'
     into: static/
 
 ce-workspace:
@@ -18,8 +18,8 @@ ce-workspace:
   properties:
     component: AttendsChurch
   urls:
-    # - http://localhost:3000/widget1.bundle.js
-    - /widget1.js
+    # - http://localhost:3000/widget1.bundle.js # use this url for local development
+    - /widget1.js # use this url for deployment
   useESM: true
 
 ce-workspace2:
